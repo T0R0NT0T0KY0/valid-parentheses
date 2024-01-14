@@ -1,0 +1,17 @@
+{
+	"name": "ts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.ts",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node main.js",
+		"style": "npx prettier . --write\n\n"
+	},
+	"author": "T0R0NT0T0KY0 <Robbin-the-Bobbin@yandex.ru>",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.0.3",
+		"typescript": "^5.2.2"
+	}
+}
